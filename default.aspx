@@ -13,12 +13,6 @@
 	'Determine today's date and create a property
 	Protected CurrentDate = DateTime.Now.ToString("dd/MM/yyyy")
 	
-	'Determine the epoch date to begin overall reporting period (currently not used in this application)
-	Protected EpochDate As DateTime = "06/05/2013"
-	
-	' Weekly hours required to work (currently not used in this application)
-	Protected WeeklyHours = 36.25
-	
 	
 
 ' <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< PAGE LOAD PROCEDURE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -868,13 +862,7 @@ Timesheets will be emailed to: <input id="emailreport" name="emailreport" value=
     </div>
 	<br/>
     <div id="Summary">
-    
-    	<!--<div id="TotalHoursLabel">Total Hours for <asp:Label id="lblDisplayDate" runat="server"></asp:Label> 
-    	</div>
 
-    	<p><asp:GridView ID = "GridView2" runat = "server" AutoGenerateColumns = "true" ShowHeader="false" DataSourceID = "SqlDataSourceSearch" /></p>
-                
-        <p>Week # <asp:Label ID="ReportDateLabel" runat="server"></asp:Label></p>-->
         
         <table>
         <tr><td>
