@@ -321,7 +321,7 @@
 ' <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< ADMIN SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>	
 	
 		' If CurrentUser is not in the list below then the Admin Label is included on the page. The Admin Label contains CSS that hides any page element with a class of "AdminOnly"
-		If CurrentUser = "GSO\jablyt2" OrElse CurrentUser = "GSO\sthamm2" OrElse CurrentUser = "GSO\jekett2" 
+		If CurrentUser = "Admin1" OrElse CurrentUser = "Admin2"
 		Admin.Visible = False
 		End If
 		
